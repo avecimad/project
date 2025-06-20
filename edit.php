@@ -2,7 +2,7 @@
 
 require('db_connectie.php');
 session_start();
-$id = $_GET['id'] ?? null; // Gebruik 'null' in kleine letters
+$id = $_GET['id'] ?? null; 
 $stmt = $pdo->prepare("SELECT * FROM media WHERE id = ?");
 $stmt->execute([$id]);
 $value = $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
