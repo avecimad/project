@@ -1,0 +1,93 @@
+.uitloggen{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: solid black;
+    color: solid red;
+}
+table,
+th,
+td {
+    border: 1px solid rgb(11, 11, 83);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+table {
+    align-items: center;
+    font-size: larger;
+    background-color: rgba(104, 104, 104, 0.54);
+}
+
+.text {
+    width: 100px;
+}
+
+.number {
+    width: 50px;
+}
+
+body {
+    background-color: #000449;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+summary {
+    border: solid yellow;
+}
+
+div {
+    border: solid yellow;
+    text-align: center;
+}
+
+.aanpassen {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 7px;
+    background-color: rgb(32, 41, 56);
+    color: white;
+}
+
+textarea {
+    border: solid yellow;
+    background-color: rgba(104, 104, 104, 0.54);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.toevoegen {
+    text-align: center;
+}
+
+.edittable {
+    background-color: #000449;
+}
+
+.option {
+    background-color: white;
+}
+
